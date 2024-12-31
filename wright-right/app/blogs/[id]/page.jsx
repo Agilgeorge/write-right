@@ -27,6 +27,13 @@ const Page = ({ params }) => {
           Button
         </button>
       </div>
+      <div className='text-center my-24'>
+        {data ? (
+          <h1>{data.title}</h1>
+        ) : (
+          <p>Loading...</p>
+        )}
+      </div>
     </div>
   )
 }
