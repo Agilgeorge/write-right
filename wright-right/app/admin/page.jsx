@@ -1,7 +1,14 @@
+'use client'
 import React from 'react'
+import Sidebar from '@/app/components/admincomponents/sidebar'
 
-export const page = () => {
+const AdminPage = () => {
   return (
-    <div>page</div>
+    <div className='flex'>
+      
+      
+    </div>
   )
 }
+
+export default AdminPage
