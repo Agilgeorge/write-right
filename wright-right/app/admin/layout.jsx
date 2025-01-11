@@ -1,7 +1,7 @@
 import { assets } from "../Assets/assets";
 import Sidebar from "../components/admincomponents/sidebar";
 import Image from "next/image";
-import { assets } from "../Assets/assets";
+
 
 export default function Layout({ children }) {
   return (
