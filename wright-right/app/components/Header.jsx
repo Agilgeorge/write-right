@@ -14,7 +14,7 @@ const Header = () => {
       </div>
       <div className='text-center my-8'>
         <h1 className='text-3xl sm:text-5xl font-medium'>New Writeups!</h1>
-        <p className='mt-10 max-w-[740px] m-auto text-xs sm:text-b'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo, aliquam! Dolores optio numquam fugiat voluptatum voluptas id eum perspiciatis deserunt officiis, esse harum nesciunt. Vero dolores vitae libero? Saepe, excepturi.</p>
+        <p className='mt-10 max-w-[740px] m-auto text-xs sm:text-b'>" A gateway to a world of knowledge, offering in-depth insights, creative ideas, and practical advice,actionable strategies, these thoughtfully crafted pieces aim to enlighten, engage, and empower your journey toward growth and discovery."</p>
       <form className='flex justify-between max-w-[500px] scale-75 sm:scale-100 mx-auto mt-10 border border-black shadow-[-7px_7px_0px_#000000]'>
         <input type="email"placeholder='enter your email' className='pl-4 outline-none' />
       <button type='submit' className='border-l border-black py-4 px-4 sm:px-8 hover:bg-gray-600 active:text-white'>Subscribe</button>
