@@ -1,10 +1,24 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useState } from 'react'
+import axios from 'axios'
 import Image from 'next/image'
 import { blog_data } from '../Assets/assets'
 import Blogthings from './Blogthings'
+
 const Bloglist = () => {
   const [menu,setMenu] = useState('All');
+  const [blogs,setBlogs] = useState([]);
+
+  const fetchBlogs = async () => {
+    const response = await axios.get('/api/blog');
+    setBlogs(response.data.blo);
+    console.log(response.data.blogs);
+  }
+
+  useEffect(() => {
+    fetchBlogs();
+  },[]);  
+
   return (
     <div>
     <div className='flex justify-center gap-6 my-10 '>

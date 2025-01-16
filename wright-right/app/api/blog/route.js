@@ -5,7 +5,8 @@ const { NextResponse } = require("next/server")
 
 export async function GET(request) {
   await connectDB()
-  return NextResponse.json({ message: 'Hello from the blog route' })
+    const blogs = await BlogModel.find({})           
+    return NextResponse.json({ blogs })
 }
 
 export async function POST(request) {

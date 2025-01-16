@@ -22,13 +22,7 @@ const Page = ({ params }) => {
   }, [resolvedParams])
 
   const fetchBlogData = () => {
-    for (let i = 0; i < blog_data.length; i++) {
-      if (blog_data[i].id === Number(resolvedParams.id)) {
-        setData(blog_data[i])
-        console.log(blog_data[i])
-        break
-      }
-    }
+    
   }
 
   return (

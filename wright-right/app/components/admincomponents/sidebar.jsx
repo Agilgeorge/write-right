@@ -14,11 +14,11 @@ const Sidebar = () => {
             <div className='w0[50%] sm:w-[80%] absolute right-0'>
 
             <Link href='/admin/addproduct' className='flex items-center border border-black gap-3 fonte-medium px-3 py-2 bg-white shadow-[-5px_5px_0px_#000000]'> 
-            <Image src={assets.add_icon} alt='' width={28} /><p>Add blogs</p>
+            <Image src={assets.add_icon} alt='' width={28} /><p>Add Writeups</p>
             </Link>
 
             <Link href='/admin/bloglist' className='flex items-center border border-black gap-3 fonte-medium px-3 py-2 mt-5 bg-white shadow-[-5px_5px_0px_#000000]'> 
-            <Image src={assets.blog_icon} alt='' width={28} /><p>Blog lists</p>
+            <Image src={assets.blog_icon} alt='' width={28} /><p>Writeup lists</p>
             </Link>
 
             <Link href='/admin/subscription' className='flex items-center border mt-5 border-black gap-3 fonte-medium px-3 py-2 bg-white shadow-[-5px_5px_0px_#000000]'> 
