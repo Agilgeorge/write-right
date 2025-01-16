@@ -34,10 +34,11 @@ const Page = () => {
     formData.append('image', image)
 
     try {
-      const response = await axios.post('/api/upload', formData)
+      const response = await axios.post('/api/blog', formData) // Corrected URL
       toast.success('Blog added successfully!')
     } catch (error) {
-      toast.error('Failed to add blog')
+      console.error('Error adding blog:', error)
+      toast.error('Failed to add blog: ' + (error.response?.data?.message || error.message))
     }
   }
 

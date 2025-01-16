@@ -3,7 +3,7 @@ import Image from 'next/image'
 import logo from '../assets/logo.png'
 import arrow from '../assets/arrow.png'
 
-const Header = () => {
+const Header = () => { 
   return (
     <div className='py-3 px-3 md:px-12 lg:px-28'>
       <div className='flex justify-between items-center'> 
